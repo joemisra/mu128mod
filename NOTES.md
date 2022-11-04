@@ -13,13 +13,23 @@
 
 ![mu128slideopen](https://user-images.githubusercontent.com/326734/200065994-04ca8ac9-d1b1-4703-942d-4af05d85d691.png)
 
+### BUILDING MU-100-DIT
+
+Depending on if you got this as a kit, or perhaps had them made yourself, this may vary - my kit was smt assembled and only required soldering a header and the optical port.
+
 ### INSTALL MU-100-DIT
 
+Your wires may be a different color, I mapped them out with what I had, so just try to match things up.
+
 ![MU-100-DIT-rear](https://user-images.githubusercontent.com/326734/199870247-9b8a227f-bedb-4162-ac54-a4b41283a15b.png)
+
+You're looking for the DAC which is IC36, it's to one side next to a big inductor coil. Gather your patience, and carefully solder the wires from the header directly to the pins. It's a very tight spot and a bit tricky with the inductor next to it. I kept some liquid flux handy to help deal with bridges.
 
 ![ic36wiring](https://user-images.githubusercontent.com/326734/199870308-f5db9d89-d079-4233-86da-673defeb4fea.png)
 
 ![ic36withwires](https://user-images.githubusercontent.com/326734/199870341-220e319b-c2f4-43fd-ab37-331a3d2cc63f.png)
+
+The last wire is MCLK and the pin is on one of the ASICs, I chose to put the wire on a resistor array that pin connects to.
 
 ![ra57](https://user-images.githubusercontent.com/326734/199870368-fd08280d-c4b4-4ae4-b28a-46825af40517.png)
 
@@ -29,7 +39,7 @@
 
 Once the board is wired up, I suggest testing it out before mounting it to the case. A quick way to do this is by hooking up an optical cable to your audio interface or DAC and running the MU-128 demo, which you can access by pressing UTIL and selecting DEMO. If you hear a grand demonstration of XG synthesis fading in, congratulations!
 
-If you hear static as I did, make sure you've bridged D0 on the MU-100-DIT board.
+If you hear static as I did, make sure you've bridged DIF0 on the MU-100-DIT board.
 
 ### MOUNTING
 
