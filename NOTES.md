@@ -19,6 +19,8 @@ Depending on if you got this as a kit, or perhaps had them made yourself, this m
 
 ### INSTALL MU-100-DIT
 
+![zoomedview](https://user-images.githubusercontent.com/326734/199870376-7a52b0af-d44f-4b70-975a-f2a853cd958f.png)
+
 Your wires may be a different color, I mapped them out with what I had, so just try to match things up.
 
 ![MU-100-DIT-rear](https://user-images.githubusercontent.com/326734/199870247-9b8a227f-bedb-4162-ac54-a4b41283a15b.png)
@@ -32,8 +34,6 @@ You're looking for the DAC which is IC36, it's to one side next to a big inducto
 The last wire is MCLK and the pin is on one of the ASICs, I chose to put the wire on a resistor array that pin connects to.
 
 ![ra57](https://user-images.githubusercontent.com/326734/199870368-fd08280d-c4b4-4ae4-b28a-46825af40517.png)
-
-![zoomedview](https://user-images.githubusercontent.com/326734/199870376-7a52b0af-d44f-4b70-975a-f2a853cd958f.png)
 
 ### TEST
 
