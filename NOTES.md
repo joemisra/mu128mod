@@ -31,7 +31,7 @@ You're looking for the DAC which is IC36, it's to one side next to a big inducto
 
 ![ic36withwires](https://user-images.githubusercontent.com/326734/199870341-220e319b-c2f4-43fd-ab37-331a3d2cc63f.png)
 
-The last wire is MCLK and the pin is on one of the ASICs, I chose to put the wire on a resistor array that pin connects to.
+The last wire is MCLK and the pin is on one of the ASICs, I chose to put the wire on a resistor array that pin connects to. I also extended the MCLK lead with a thinner wire, as it is a very tiny target.
 
 ![ra57](https://user-images.githubusercontent.com/326734/199870368-fd08280d-c4b4-4ae4-b28a-46825af40517.png)
 
